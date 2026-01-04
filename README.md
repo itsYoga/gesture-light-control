@@ -4,6 +4,14 @@ Control IoTtalk smart bulb brightness using hand gestures detected through your 
 
 透過網路攝影機偵測手勢來控制 IoTtalk 智慧燈泡亮度。
 
+## Demo / 展示
+
+![Gesture Control Demo](demo.gif)
+
+## IoTtalk Project / IoTtalk 專案設定
+
+![IoTtalk Project Screenshot](iottalk_screenshot.png)
+
 ---
 
 ## How it works / 運作原理

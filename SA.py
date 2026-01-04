@@ -6,12 +6,12 @@ Gesture Control for IoTtalk Bulb - SA Configuration
 # IoTtalk 伺服器設定
 ServerURL = 'https://class.iottalk.tw'
 
-# MQTT 設定
-MQTT_broker = 'iot.iottalk.tw'
+# MQTT 設定 (停用 - 使用純 HTTP)
+MQTT_broker = None  # 設為 None 停用 MQTT
 MQTT_port = 8883
-MQTT_encryption = True
-MQTT_User = 'iottalk'
-MQTT_PW = 'iottalk2023'
+MQTT_encryption = False
+MQTT_User = None
+MQTT_PW = None
 
 # 裝置設定
 device_model = 'Dummy_Device'
